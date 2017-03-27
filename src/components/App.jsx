@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import { firebaseApp } from '../firebase';
-import Confirm from 'react-bootstrap-confirm'
 import AddGoals from './AddGoals';
 import GoalsList from './GoalsList';
 import CompletedGoalsList from './CompletedGoalList';
